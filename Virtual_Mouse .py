@@ -62,6 +62,7 @@ while True:
                 if length < 53:
                     cv2.circle(img,(infoline[4],infoline[5]),15,(0,255,0),cv2.FILLED)
                     autopy.mouse.click()
+                    time.sleep(1)
 
 
 
